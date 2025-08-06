@@ -7,5 +7,5 @@ function somar(event) {
     const soma = numero1 + numero2
 
     const paragrafoResultado = document.querySelector("#resultado")
-    paragrafoResultado.innerHTML = 'Soma: ${soma}'
+    paragrafoResultado.innerHTML = `Soma: ${soma} `
 }
